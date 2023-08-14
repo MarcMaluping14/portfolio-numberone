@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Components</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css" />
+
+</head>
+
+<body
+
+  <!-- FIRST PAGE -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> MJMM </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"> <img src="./house.svg" alt="home icon" height="25" />&nbsp;<strong>Home</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img src="./person-lines-fill.svg" alt="person with list icon" height="25"/>&nbsp;<strong>About</strong></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="./list.svg" height="25"/>&nbsp;<strong>Others</strong>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"><img src="./tools.svg" alt="tools icon" height="25"/>&nbsp;<strong>Skills</strong></a></li>
+              <li><a class="dropdown-item" href="#"><img src="./mortarboard.svg" alt="graduation cap icon" height="25"/>&nbsp;<strong>Education</strong></a></li>
+              <li><a class="dropdown-item" href="#"><img src="./buildings.svg" alt="buildings icon" height="25"/>&nbsp;<strong>Work Experiences</strong></a></li>
+              <li><a class="dropdown-item" href="#"><img src="./patch-check.svg" alt="ribbon with check icon" height="25"/>&nbsp;<strong>Awards and Ceritifications</strong></a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#"><img src="./telephone.svg" alt="telephne icon" height="25"/>&nbsp;<strong>Contact Me</strong></a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark" type="submit"><strong>Search</strong></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <section id="title" class="gradient-background">
+  <div class="px-4 py-5 my-5 text-center">
+    <img class="d-block mx-auto mb-4" img src="./removedbg.jpg" alt="myself" width="450px" height="500px"> 
+    <h1 class="display-5 fw-bold text-body-emphasis">Marc Junielle M. Maluping</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">I am a diligent and receptive person that is willing to learn new things and discover new ideas to improve my skills in IT Industry. I also consider myself to be always committed at my work, a fast learner, and dedicated on the tasks that will be given to me.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button type="button" class="btn btn-dark btn-lg px-4 gap-3">Wala pa malagay</button>
+        <button type="button" class="btn btn-outline-dark btn-lg px-4">Wala pa malagay</button>
+      </div>
+    </div>
+  </section>
+
+  </div> <hr />
+
+  <!-- SECOND PAGE -->
+  <div class="container">
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./pic1.jpg" class="d-block" width="1300" height="600" alt="upper view guy in a computer">
+      </div>
+      <div class="carousel-item">
+        <img src="./pic2.jpg" class="d-block" width="1300" height="600" alt="codes">
+      </div>
+      <div class="carousel-item">
+        <img src="./pic3.jpg" class="d-block" width="1300" height="600" alt="front view guy in computer">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+  <!-- THIRD PAGE -->
+  <div class="container px-4 py-5">
+    <h2 class="pb-2 border-bottom"><strong>Others</strong></h2>
+
+    <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+      <div class="col d-flex flex-column align-items-start gap-2">
+        <h2 class="fw-bold text-body-emphasis">Programming Languages Used</h2>
+        <p class="text-body-secondary">Web Designing</p>
+        <a href="#" class="btn btn-dark btn-lg">Wala pa malagay</a>
+      </div>
+
+      <div class="col">
+        <div class="row row-cols-1 row-cols-sm-2 g-4">
+          <div class="col d-flex flex-column gap-2">
+            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-none bg-gradient fs-4 rounded-3">
+              <img src="./filetype-js.svg" alt="JS Icon" height="40">
+            </div>
+            <h4 class="fw-semibold mb-0 text-body-emphasis">Javascript</h4>
+            <p class="text-body-secondary">For Functions</p>
+          </div>
+
+          <div class="col d-flex flex-column gap-2">
+            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-none bg-gradient fs-4 rounded-3">
+              <img src="./filetype-html.svg" alt="HTML Icon" height="40">
+            </div>
+            <h4 class="fw-semibold mb-0 text-body-emphasis">HTML</h4>
+            <p class="text-body-secondary">For Content</p>
+          </div>
+
+          <div class="col d-flex flex-column gap-2">
+            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-none bg-gradient fs-4 rounded-3">
+              <img src="./bootstrap.svg" alt="Bootstrap Icon" height="40">
+            </div>
+            <h4 class="fw-semibold mb-0 text-body-emphasis">Bootstrap</h4>
+            <p class="text-body-secondary">For Templates and Designs</p>
+          </div>
+
+          <div class="col d-flex flex-column gap-2">
+            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-none   bg-gradient fs-4 rounded-3">
+              <img src="./filetype-css.svg" alt="CSS Icon" height="40">
+            </div>
+            <h4 class="fw-semibold mb-0 text-body-emphasis">CSS</h4>
+            <p class="text-body-secondary">for Styles and Colors</p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LAST PAGE -->
+  <div class="container">
+    <footer class="py-1 my-1">
+      <ul class="nav justify-content-center border-bottom pb-1 mb-1">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contact</a></li>
+      </ul>
+      <p class="text-center text-body-dark"><strong>© 2023 Unyel, Inc</strong></p>
+    </footer>
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+
+</html>
